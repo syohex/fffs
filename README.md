@@ -9,9 +9,11 @@ Setup
 
 Put these lines in your `~/.emacs/init.el`:
 
-  (add-to-list 'load-path "$PATHTOFFFS") ; fill in the path where you put the library
-  (require 'find-file-from-selection)
-  (define-key global-map (kbd "C-c C-f") 'find-file-from-selection) ; use the key you like
+```elisp
+(add-to-list 'load-path "$PATHTOFFFS") ; fill in the path where you put the library
+(require 'find-file-from-selection)
+(define-key global-map (kbd "C-c C-f") 'find-file-from-selection) ; use the key you like
+```
 
 Usage
 -----
@@ -54,7 +56,7 @@ prepended).
 Author
 ------
 
-Adam Sjøgren <asjo@koldfront.dk>
+Adam Sjøgren &lt;asjo@koldfront.dk&gt;
 
 License
 -------
