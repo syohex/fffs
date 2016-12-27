@@ -7,7 +7,7 @@ selection) and locating the file, possibly by searching for it.
 Demo
 ----
 
-<a href="https://koldfront.dk/emacs/fffs/demo.html"><img width="909" height="786" src="/asjo/fffs/blob/master/demo.png" alt="Asciinema demo" /></a>
+<a href="https://koldfront.dk/emacs/fffs/demo.html"><img width="454" height="393" src="https://raw.githubusercontent.com/asjo/fffs/master/demo.png" alt="asciinema demo" /></a>
 
 Setup
 -----
