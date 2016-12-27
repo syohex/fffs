@@ -71,7 +71,7 @@
                       (forward-line (1- linenumber))
                       (if position
                           (forward-char (1- position)))))
-                (message "Matched selection (%s) to file %s" (string-trim selection) filename))
+                (message "Found file %s from selection \"%s\"" filename (string-trim selection)))
           (message "Could not match selection \"%s\" to a file" (string-trim selection))))))))
 
 (defun fffs-match-python (selection)
