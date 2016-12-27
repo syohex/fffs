@@ -7,9 +7,7 @@ selection) and locating the file, possibly by searching for it.
 Demo
 ----
 
-<link rel="stylesheet" type="text/css" href="/asjo/fffs/blob/master/demo/asciinema-player.css" />
-<asciinema-player cols="81" rows="32" preload="1" poster="npt:0:07" theme="solarized-light" src="/asjo/fffs/blob/master/demo/demo.json"></asciinema-player>
-<script src="/asjo/fffs/blob/master/demo/asciinema-player.js"></script>
+<a href="https://koldfront.dk/emacs/fffs/demo.html"><img width="909" height="786" src="/asjo/fffs/blob/master/demo.png" alt="Asciinema demo" /></a>
 
 Setup
 -----
