@@ -40,7 +40,7 @@
 (require 'find-lisp)
 
 (defvar find-file-from-selection-directories
-  '("~/work/")
+  '()
   "List of directories to look for files in, when using
   find-file-from-selection. All elements should end in a slash.
   Note that if these directories are large, looking through them
@@ -64,7 +64,7 @@
                       (goto-char (point-min))
                       (forward-line (1- linenumber))
                       (if position
-                          (forward-char position))))
+                          (forward-char (1- position)))))
                 (message "Matched selection (%s) to file %s" (string-trim selection) filename))
           (message "Could not match selection \"%s\" to a file" (string-trim selection))))))))
 
