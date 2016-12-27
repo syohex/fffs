@@ -161,7 +161,8 @@
             (if parts
                 (fffs-locate-file-recursively-directory directory (mapconcat 'identity parts "/"))))
         (progn
-          (setq found (find-lisp-find-files directory filename))
+          (if (file-exists-p directory)
+              (setq found (find-lisp-find-files directory filename)))
           (if found (setq found (pop found)))
           found)))))
 
