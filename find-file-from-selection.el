@@ -86,12 +86,18 @@
       (list (match-string 1 selection) (string-to-number (match-string 2 selection)))))
 ; (fffs-match-ruby "/tmp/hep.rb:3:in `<main>': undefined method `problem' for main:Object (NoMethodError)")
 
-(defun fffs-match-ghc-gcc (selection)
+(defun fffs-match-ghc-gcc-clang (selection)
   "Match 'FILE:N:P: error'"
   (if (string-match "\\([^:space].*?\\):\\([0-9]+\\):\\([0-9]+\\)" selection)
       (list (match-string 1 selection) (string-to-number (match-string 2 selection)) (string-to-number (match-string 3 selection)))))
-; (fffs-match-ghc-gcc "hep.c:5:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]")
-; (fffs-match-ghc-gcc "hep.hs:2:15: error:")
+; (fffs-match-ghc-gcc-clang "hep.c:5:16: warning: format ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wformat=]")
+; (fffs-match-ghc-gcc-clang "hep.hs:2:15: error:")
+
+(defun fffs-match-sh (selection)
+  "Match 'FILE: N: FILE:'"
+  (if (string-match "\\([^:space].*?\\): \\([0-9]+\\)" selection)
+      (list (match-string 1 selection) (string-to-number (match-string 2 selection)))))
+; (fffs-match-sh "./demo/sh/test.sh: 7: ./demo/sh/test.sh: Syntax error:")
 
 (defun fffs-match-perl (selection)
   "Match 'TEXT at FILENAME line N.'"
@@ -116,7 +122,8 @@
 ; (fffs-match-just-file "--- a/feedbase-web/src/Pages.hs\n")
 
 (defvar fffs-match-functions
-  '(fffs-match-ghc-gcc
+  '(fffs-match-ghc-gcc-clang
+    fffs-match-sh
     fffs-match-perl
     fffs-match-python
     fffs-match-ruby
