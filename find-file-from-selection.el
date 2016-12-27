@@ -46,6 +46,12 @@
   Note that if these directories are large, looking through them
   will probably take quite some time.")
 
+(defvar find-file-from-selection-exclude-directories
+  '("~/" (expand-file-name "~/"))
+  "List of directories to skip when recursively searching for
+   files. Defaults to your home directory, as that probably is large
+   and takes a long time to search through.")
+
 (defun find-file-from-selection ()
   "Open file referred to in current selection (clipboard)"
   (interactive)
@@ -161,7 +167,7 @@
             (if parts
                 (fffs-locate-file-recursively-directory directory (mapconcat 'identity parts "/"))))
         (progn
-          (if (file-exists-p directory)
+          (if (and (file-exists-p directory) (not (member directory find-file-from-selection-exclude-directories)))
               (setq found (find-lisp-find-files directory filename)))
           (if found (setq found (pop found)))
           found)))))
