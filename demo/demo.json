@@ -1,0 +1,1418 @@
+{
+  "stdout": [
+    [
+      0.001551,
+      "\u001b[3J\u001b[H\u001b[2J"
+    ],
+    [
+      4.8e-05,
+      "$ "
+    ],
+    [
+      2.477988,
+      "g"
+    ],
+    [
+      0.062946,
+      "h"
+    ],
+    [
+      0.139712,
+      "c"
+    ],
+    [
+      0.167752,
+      " "
+    ],
+    [
+      0.568103,
+      "d"
+    ],
+    [
+      0.180941,
+      "e"
+    ],
+    [
+      0.078579,
+      "m"
+    ],
+    [
+      0.158411,
+      "o"
+    ],
+    [
+      0.298256,
+      "/"
+    ],
+    [
+      0.244134,
+      "h"
+    ],
+    [
+      0.262168,
+      "askell/"
+    ],
+    [
+      0.429024,
+      "test.hs "
+    ],
+    [
+      0.697298,
+      "\r\n"
+    ],
+    [
+      0.072589,
+      "[1 of 1] Compiling Main             ( demo/haskell/test.hs, demo/haskell/test.o )\r\n"
+    ],
+    [
+      0.037047,
+      "\r\n"
+    ],
+    [
+      3e-05,
+      "demo/haskell/test.hs:4:20: error:"
+    ],
+    [
+      0.000131,
+      "\r\n    • No instance for"
+    ],
+    [
+      4e-05,
+      " (Num String) arising from the literal ‘17’\r\n    • In the first argument of ‘putStrLn’, namely ‘17’\r\n      In a stmt of a 'do' block"
+    ],
+    [
+      1.8e-05,
+      ": putStrLn 17\r\n      In the expression:"
+    ],
+    [
+      1.3e-05,
+      " do"
+    ],
+    [
+      2e-05,
+      " { putStrLn 17 }\r\n"
+    ],
+    [
+      0.113616,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[4;1H\u001b[7mdemo/haskell/test.hs:4:20: error:\u001b[9;3H\u001b[0m"
+      ],
+    [
+      4.52703,
+      "f"
+    ],
+    [
+      0.172497,
+      "g"
+    ],
+    [
+      0.454406,
+      "\r\n"
+    ],
+    [
+      0.000839,
+      "emacs -nw\t(wd: ~)\r\n\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.00122,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      0.000143,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.538412,
+      "\u001b[32d\u001b[?25l: error:\"\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mHelp                 \u001b[39;49m\r\n-- test.hs - test compilation error\u001b[K\r\n\u001b[K\nmain :: IO ()\r\nmain = do putStrLn 17\u001b[30;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.hs     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,19)    Git-master  (Fundamental ARev)  -------\u001b[39;49m\r\nFound file ~/code/demo/haskell/test.hs from selection \"demo/haskell/test.hs:4:20\\\r\n\u001b[5;20H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      3.635251,
+      "\u001b[32;1H\u001b[K\u001b[5;20H\u001b[?25l\"17\u001b[30;1H\u001b[K\n\u001b[30m\u001b[48;5;253m-UU-:**--F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.hs     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,20)    Git-master  (Fundamental ARev)  -------\u001b[39;49m\r\n\u001b[5;21H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.438269,
+      "\u001b[31;37H\u001b[?25l\u001b[30m\u001b[48;5;253m1\u001b[39;49m\u001b[5;22H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.188845,
+      "\u001b[31;37H\u001b[?25l\u001b[30m\u001b[48;5;253m2\u001b[39;49m\u001b[5;23H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.167574,
+      "\u001b[?25l\"\u001b[31;37H\u001b[30m\u001b[48;5;253m3\u001b[39;49m\u001b[5;24H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      2.015422,
+      "\u001b[32;1H\u001b[?25lSaving file /home/asjo/code/demo/haskell/test.hs...\u001b[5;24H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.017786,
+      "\u001b[32;1H\u001b[?25lWrote /home/asjo/code/demo/haskell/test.hs\u001b[K\u001b[5;24H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.003088,
+      "\u001b[31;6H\u001b[?25l\u001b[30m\u001b[48;5;253m----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.hs     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,23)    Git:\u001b[39;49m\u001b[5;24H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.552085,
+      "\u001b[32;1H\u001b[K\u001b[5;24H"
+    ],
+    [
+      0.207073,
+      "\u001b[32;1H\u001b[?25l\u001b[38;5;20mKill buffer (default test.hs): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m\u001b[32;32H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.284717,
+      "\r"
+    ],
+    [
+      0.001772,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\u001b[K"
+    ],
+    [
+      4.8e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  --------\u001b[39;49m\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.492342,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      2.5e-05,
+      "\r\n"
+    ],
+    [
+      1.8e-05,
+      "[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n"
+    ],
+    [
+      4.8e-05,
+      "$ "
+    ],
+    [
+      4.009141,
+      "g"
+    ],
+    [
+      0.324819,
+      "i"
+    ],
+    [
+      0.235725,
+      "t"
+    ],
+    [
+      0.159656,
+      " "
+    ],
+    [
+      0.170035,
+      "d"
+    ],
+    [
+      0.126755,
+      "i"
+    ],
+    [
+      0.069064,
+      "f"
+    ],
+    [
+      0.164674,
+      "f"
+    ],
+    [
+      0.471336,
+      "\r\n"
+    ],
+    [
+      0.002071,
+      "\u001b[?1h\u001b=\r"
+    ],
+    [
+      3e-05,
+      "\u001b[1mdiff --git a/demo/haskell/test.hs b/demo/haskell/test.hs\u001b[m\u001b[m\r\n\u001b[1mindex c569554..be666e1 100644\u001b[m\u001b[m\r\n\u001b[1m--- a/demo/haskell/test.hs\u001b[m\u001b[m\r\n\u001b[1m+++ b/demo/haskell/test.hs\u001b[m\u001b[m\r\n\u001b[36m@@ -1,4 +1,4 @@\u001b[m\u001b[m\r\n -- test.hs - test compilation error\u001b[m\u001b[m\r\n \u001b[m\u001b[m\r\n main :: IO ()\u001b[m\u001b[m\r\n\u001b[31m-main = do putStrLn 17\u001b[m\u001b[m\r\n\u001b[32m+\u001b[m\u001b[32mmain = do putStrLn \"17\"\u001b[m\u001b[m\r\n"
+    ],
+    [
+      1.7e-05,
+      "\r\u001b[K\u001b[?1l\u001b>"
+    ],
+    [
+      0.200355,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[4;1Hdemo/haskell/test.hs:4:20: error:\u001b[17;1H\u001b[7m--- a/demo/haskell/test.hs\u001b[25;3H\u001b[0m"
+      ],
+    [
+      5.283202,
+      "f"
+    ],
+    [
+      0.180329,
+      "g"
+    ],
+    [
+      0.725249,
+      "\r\nemacs -nw\t(wd: ~)\r\n"
+    ],
+    [
+      3.6e-05,
+      "\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.00055,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      3.1e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.27761,
+      "\u001b[32d\u001b[?25ls\"\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mHelp                 \u001b[39;49m\r\n-- test.hs - test compilation error\u001b[K\r\n\u001b[K\nmain :: IO ()\r\nmain = do putStrLn \"17\""
+    ],
+    [
+      4.1e-05,
+      "\u001b[30;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.hs     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (1,0)     Git:master  (Fundamental ARev)  -------\u001b[39;49m\r\nFound file ~/code/demo/haskell/test.hs from selection \"--- a/demo/haskell/test.h\\\r\n\u001b[2d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      4.271121,
+      "\u001b[32d\u001b[K"
+    ],
+    [
+      0.000212,
+      "\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r\r\n[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n$ "
+    ],
+    [
+      4.821424,
+      "\u001b[H\u001b[2J$ "
+    ],
+    [
+      4.228808,
+      "c"
+    ],
+    [
+      0.228491,
+      "l"
+    ],
+    [
+      0.114402,
+      "a"
+    ],
+    [
+      0.182583,
+      "n"
+    ],
+    [
+      0.100857,
+      "g"
+    ],
+    [
+      0.136218,
+      " "
+    ],
+    [
+      0.193982,
+      "d"
+    ],
+    [
+      0.156844,
+      "e"
+    ],
+    [
+      0.087134,
+      "m"
+    ],
+    [
+      0.165542,
+      "o"
+    ],
+    [
+      0.338213,
+      "/"
+    ],
+    [
+      0.545302,
+      "c"
+    ],
+    [
+      0.722529,
+      "/"
+    ],
+    [
+      0.293311,
+      "test.c "
+    ],
+    [
+      0.691121,
+      "\r\n"
+    ],
+    [
+      0.038531,
+      "\u001b[1mdemo/c/test.c:9:28: \u001b[0m\u001b[0;1;35mwarning: \u001b[0m\u001b[1mformat specifies type 'char *' but "
+    ],
+    [
+      3.7e-05,
+      "the argument has\r\n      type 'int' [-Wformat]\u001b[0m\r\n"
+    ],
+    [
+      1.8e-05,
+      "  printf(\"Test value: %s\", value);\r\n\u001b[0;1;32m                      ~~   ^~~~~\r\n\u001b[0m\u001b[0;32m                      %d\r\n\u001b[0m"
+    ],
+    [
+      0.002555,
+      "1 warning generated.\r\n"
+    ],
+    [
+      0.114945,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[2;1H\u001b[7mdemo/c/test.c:9:28: warning: format specifies type 'char *' but the argument has\u001b[8;3H\u001b[0m"
+      ],
+    [
+      3.751311,
+      "f"
+    ],
+    [
+      0.1969,
+      "g"
+    ],
+    [
+      0.240658,
+      "\r\nemacs -nw\t(wd: ~)\r\n"
+    ],
+    [
+      5.9e-05,
+      "\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.001523,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Help                                      \u001b[39;49m\r\n\u001b[A\n-- test.hs - test compilation error\u001b[K\r\n\u001b[K\nmain :: IO ()\u001b[K\r\nmain = do putStrLn \"17\"\u001b[K\r\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      5.9e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.hs     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (1,0)     Git:master  (Fundamental ARev)  -------\u001b[39;49m\r\n\u001b[A\u001b[2d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      2.122951,
+      "\u001b[32d\u001b[?25l\u001b[38;5;20mKill buffer (default test.hs): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m\u001b[32;32H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.31742,
+      "\r"
+    ],
+    [
+      0.00119,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\u001b[K"
+    ],
+    [
+      4.7e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  --------\u001b[39;49m\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.128998,
+      "\u001b[32d\u001b[?25lmat specifies type 'char *' but the argument has\"\u001b[K\u001b[H\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber C Help                                    \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m/* test.c - test a warning */\u001b[39;49m\u001b[K\r\n\u001b[K\n\u001b[38;5;60m#include\u001b[39;49m \u001b[38;5;28m<stdio.h>\u001b[39;49m\u001b[K\r\n\u001b[38;5;60m#include\u001b[39;49m \u001b[38;5;28m<stdlib.h>\u001b[39;49m\u001b[K\r\n\u001b[K\n\u001b[38;5;28mint\u001b[39;49m \u001b[38;5;90mmain\u001b[39;49m(\u001b[38;5;28mvoid\u001b[39;49m) {\u001b[K\r\n  \u001b[38;5;28mint\u001b[39;49m \u001b[38;5;90mvalue\u001b[39;49m=7;\u001b[K\r\n\u001b[K\n  printf(\u001b[38;5;28m\"Test value: %s\"\u001b[39;49m, value);\u001b[K\r\n  exit(0);\u001b[K\r\n}\u001b[K\n\b\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      2.8e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.c      \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (9,27)    Git-master  (C/l ARev AC Abbrev) []  --\u001b[39;49m\r\n\u001b[A\nFound file ~/code/demo/c/test.c from selection \"demo/c/test.c:9:28: warning: for\\\r\n\u001b[A\u001b[10;28H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.502742,
+      "\u001b[30;77H\u001b[?25l\u001b[38;5;90m\u001b[48;5;253mmain\u001b[39;49m\u001b[30m\u001b[48;5;253m]\u001b[39;49m\r\n\u001b[10;28H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      4.554669,
+      "\u001b[1;31r\u001b[30;1H\u001b[1L\u001b[1;32r\u001b[32;1H\u001b[K\u001b[30d\u001b[K\u001b[10;28H"
+    ],
+    [
+      0.169216,
+      "\u001b[32;1H\u001b[?25l\u001b[38;5;20mKill buffer (default test.c): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m\u001b[32;31H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.258179,
+      "\r"
+    ],
+    [
+      0.000896,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\u001b[K\n\n\u001b[K\n\u001b[K\n\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      2.5e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.358268,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      2.8e-05,
+      "\r\n"
+    ],
+    [
+      1.8e-05,
+      "[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n"
+    ],
+    [
+      7.8e-05,
+      "$ "
+    ],
+    [
+      3.325409,
+      "g"
+    ],
+    [
+      0.045772,
+      "c"
+    ],
+    [
+      0.1563,
+      "c"
+    ],
+    [
+      0.08859,
+      " "
+    ],
+    [
+      0.275735,
+      "-"
+    ],
+    [
+      0.161811,
+      "W"
+    ],
+    [
+      0.203293,
+      "a"
+    ],
+    [
+      0.112463,
+      "l"
+    ],
+    [
+      0.172461,
+      "l"
+    ],
+    [
+      0.072309,
+      " "
+    ],
+    [
+      0.59131,
+      "t"
+    ],
+    [
+      0.092682,
+      "e"
+    ],
+    [
+      0.20481,
+      "s"
+    ],
+    [
+      0.33506,
+      "\b\u001b[K"
+    ],
+    [
+      0.165258,
+      "\b\u001b[K"
+    ],
+    [
+      0.133675,
+      "\b\u001b[K"
+    ],
+    [
+      0.069721,
+      "d"
+    ],
+    [
+      0.146356,
+      "e"
+    ],
+    [
+      0.069193,
+      "m"
+    ],
+    [
+      0.159482,
+      "o"
+    ],
+    [
+      0.090525,
+      "/"
+    ],
+    [
+      0.673536,
+      "c"
+    ],
+    [
+      0.28827,
+      "/"
+    ],
+    [
+      0.28078,
+      "t"
+    ],
+    [
+      0.108701,
+      "e"
+    ],
+    [
+      0.173512,
+      "t"
+    ],
+    [
+      0.122586,
+      "\u0007"
+    ],
+    [
+      0.791258,
+      "\b\u001b[K"
+    ],
+    [
+      0.035096,
+      "s"
+    ],
+    [
+      0.252946,
+      "t"
+    ],
+    [
+      0.270823,
+      ".c "
+    ],
+    [
+      0.42074,
+      "\r\n"
+    ],
+    [
+      0.011667,
+      "\u001b[01m\u001b[Kdemo/c/test.c:\u001b[m\u001b[K In function ‘\u001b[01m\u001b[Kmain\u001b[m\u001b[K’:\r\n\u001b[01m\u001b[Kdemo/c/test.c:9:24:\u001b[m\u001b[K \u001b[01;35m\u001b[Kwarning: \u001b[m\u001b[Kformat ‘\u001b[01m\u001b[K%s\u001b[m\u001b[K’ expects argument of type ‘\u001b[01m\u001b[Kchar *\u001b[m\u001b[K’, but argument 2 has type ‘\u001b[01m\u001b[Kint\u001b[m\u001b[K’ [\u001b[01;35m\u001b[K-Wformat=\u001b[m\u001b[K]\r\n   printf(\"Test value: %\u001b[01;35m\u001b[Ks\u001b[m\u001b[K\", value);\r\n                        \u001b[01;35m\u001b[K^\u001b[m\u001b[K\r\n"
+    ],
+    [
+      0.124042,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[2;1H\u001b[0mdemo/c/test.c:9:28: warning: format specifies type 'char *' but the argument has\u001b[15;1H\u001b[7mdemo/c/test.c:9:24: warning: format ‘%s’ expects argument of type ‘char *’, but a\r\nrgument 2 has type ‘int’ [-Wformat=]\u001b[19;3H\u001b[0m"
+      ],
+    [
+      3.023911,
+      "f"
+    ],
+    [
+      0.172518,
+      "g"
+    ],
+    [
+      0.160131,
+      "\r\nemacs -nw\t(wd: ~)\r\n"
+    ],
+    [
+      2.3e-05,
+      "\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.000504,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      2.7e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.084662,
+      "\u001b[32d\u001b[?25lmat=]\"\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mC Help               \u001b[39;49m"
+    ],
+    [
+      4.4e-05,
+      "\r\n\u001b[38;5;17m/* test.c - test a warning */\u001b[39;49m\u001b[K\r\n\u001b[K\n\u001b[38;5;60m#include\u001b[39;49m \u001b[38;5;28m<stdio.h>\u001b[39;49m\r\n\u001b[38;5;60m#include\u001b[39;49m \u001b[38;5;28m<stdlib.h>\u001b[39;49m\r\n\n\u001b[38;5;28mint\u001b[39;49m \u001b[38;5;90mmain\u001b[39;49m(\u001b[38;5;28mvoid\u001b[39;49m) {\u001b[8;3H\u001b[38;5;28mint\u001b[39;49m \u001b[38;5;90mvalue\u001b[39;49m=7;\u001b[10;3Hprintf(\u001b[38;5;28m\"Test value: %s\"\u001b[39;49m, value);\u001b[11;3Hexit(0);\r\n}\u001b[29;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.c      \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (9,23)    Git-master  (C/l ARev AC Abbrev) [\u001b[39;49m\u001b[38;5;90m\u001b[48;5;253mmain\u001b[39;49m\u001b[30m\u001b[48;5;253m]\u001b[39;49m\r\nFound file ~/code/demo/c/test.c from selection \"demo/c/test.c:9:24: warning: for\\\r\nmat ‘%s’ expects argument of type ‘char *’, but argument 2 has type ‘int’ [-Wfor\\\r\n\u001b[10;24H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      8.697305,
+      "\u001b[32;1H\u001b[K\u001b[29d\u001b[K\n\u001b[K\n\u001b[?25l\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.c      \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (9,23)    Git-master  (C/l ARev AC Abbrev) [\u001b[39;49m\u001b[38;5;90m\u001b[48;5;253mmain\u001b[39;49m\u001b[30m\u001b[48;5;253m]\u001b[39;49m\r\n\u001b[10;24H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.175563,
+      "\u001b[32;1H\u001b[?25l\u001b[38;5;20mKill buffer (default test.c): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m\u001b[32;31H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.2918,
+      "\r"
+    ],
+    [
+      0.000755,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\u001b[K\n\n\u001b[K\n\u001b[K\n\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      2.5e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.414195,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      5.5e-05,
+      "\r\n"
+    ],
+    [
+      2.2e-05,
+      "[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n"
+    ],
+    [
+      3.2e-05,
+      "$ "
+    ],
+    [
+      3.245645,
+      "\u001b[H\u001b[2J$ "
+    ],
+    [
+      1.747646,
+      "."
+    ],
+    [
+      0.760514,
+      "/"
+    ],
+    [
+      0.162957,
+      "d"
+    ],
+    [
+      0.157207,
+      "e"
+    ],
+    [
+      0.125934,
+      "m"
+    ],
+    [
+      0.28553,
+      "o"
+    ],
+    [
+      0.138368,
+      "/"
+    ],
+    [
+      0.303976,
+      "p"
+    ],
+    [
+      0.114917,
+      "e"
+    ],
+    [
+      0.236025,
+      "rl/"
+    ],
+    [
+      0.363934,
+      "test.pl "
+    ],
+    [
+      0.76725,
+      "\r\n"
+    ],
+    [
+      0.004542,
+      "Use of uninitialized value $value in concatenation (.) or string at ./demo/perl/test.pl line 12.\r\nTest value: \r\n"
+    ],
+    [
+      0.100432,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[2;1H\u001b[7mUse of uninitialized value $value in concatenation (.) or string at ./demo/perl/t\r\nest.pl line 12.\u001b[5;3H\u001b[0m"
+      ],
+    [
+      4.343393,
+      "f"
+    ],
+    [
+      0.165593,
+      "g"
+    ],
+    [
+      0.4384,
+      "\r\n"
+    ],
+    [
+      0.000819,
+      "emacs -nw\t(wd: ~)\r\n\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.001255,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      7.8e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.83744,
+      "\u001b[32d\u001b[?25ld value $value in concatenation (.) or string at ./demo/perl/test.pl line 12.\"\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mPerl Help            \u001b[39;49m\r\n\u001b[38;5;17m#!/usr/bin/perl                                                       \u001b[39;49m\r\n\u001b[K\n\u001b[38;5;17m# test.pl - test a warning                                                       \u001b[39;49m\r\n\n\u001b[38;5;88muse\u001b[39;49m \u001b[38;5;90mstrict\u001b[39;49m;\r\n\u001b[38;5;88muse\u001b[39;49m \u001b[38;5;90mwarnings\u001b[39;49m;\r\n\n\u001b[38;5;88muse\u001b[39;49m v5.10;\r\n\n\u001b[38;5;88mmy\u001b[39;49m \u001b[38;5;90m$value\u001b[39;49m=\u001b[38;5;76mundef\u001b[39;49m;\r\n\nsay \u001b[38;5;28m\"Test value: $value\"\u001b[39;49m;"
+    ],
+    [
+      3.9e-05,
+      "\u001b[30;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.pl     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (12,0)    Git-master  (CPerl ARev AC) [\u001b[39;49m\u001b[38;5;90m\u001b[48;5;253mmain\u001b[39;49m\u001b[30m\u001b[48;5;253m]  ---\u001b[39;49m\r\nFound file /home/asjo/code/demo/perl/test.pl from selection \"Use of uninitialize\\\r\n\u001b[13d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.50333,
+      "\u001b[30;72H\u001b[?25l\u001b[30m\u001b[48;5;253m]  ----\u001b[39;49m\u001b[13;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      5.166461,
+      "\u001b[1;31r\u001b[30;1H\u001b[1L\u001b[1;32r\u001b[32;1H\u001b[K\u001b[30d\u001b[K\u001b[13d"
+    ],
+    [
+      0.224142,
+      "\u001b[32d\u001b[?25l\u001b[38;5;20mKill buffer (default test.pl): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m"
+    ],
+    [
+      8e-05,
+      "\u001b[32;32H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.323586,
+      "\r"
+    ],
+    [
+      0.001947,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.\u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\n\u001b[K\n\u001b[K\n\n\u001b[K\n\n\u001b[K\n\n\u001b[K"
+    ],
+    [
+      7.5e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  --------\u001b[39;49m\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.372413,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      9.3e-05,
+      "\r\n[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n$ "
+    ],
+    [
+      3.390119,
+      "\u001b[H\u001b[2J$ "
+    ],
+    [
+      0.35482,
+      "."
+    ],
+    [
+      0.576966,
+      "/"
+    ],
+    [
+      0.13925,
+      "d"
+    ],
+    [
+      0.165718,
+      "e"
+    ],
+    [
+      0.078092,
+      "m"
+    ],
+    [
+      0.205714,
+      "o"
+    ],
+    [
+      0.282288,
+      "/"
+    ],
+    [
+      0.741877,
+      "p"
+    ],
+    [
+      0.267252,
+      "y"
+    ],
+    [
+      0.122955,
+      "thon/"
+    ],
+    [
+      0.764042,
+      "t"
+    ],
+    [
+      0.171413,
+      "est.py "
+    ],
+    [
+      0.614806,
+      "\r\n"
+    ],
+    [
+      0.027818,
+      "Traceback (most recent call last):\r\n  File \"./demo/python/test.py\", line 5, in <module>\r\n"
+    ],
+    [
+      5.4e-05,
+      "    print(\"Test value: {}\".format(value))\r\nNameError: name 'value' is not defined\r\n"
+    ],
+    [
+      0.10369,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[3;1H\u001b[7m  File \"./demo/python/test.py\", line 5, in <module>\u001b[6;3H\u001b[0m"
+      ],
+    [
+      5.431407,
+      "f"
+    ],
+    [
+      0.197565,
+      "g"
+    ],
+    [
+      0.28697,
+      "\r\nemacs -nw\t(wd: ~)\r\n\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.000474,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      3.4e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.844308,
+      "\u001b[32d\u001b[?25lCan’t guess python-indent-offset, using defaults: 4\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.014283,
+      "\u001b[32d\u001b[?25l.py\", line 5, in <module>\"\u001b[K\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mPython Help          \u001b[39;49m\r\n\u001b[38;5;17m#!/usr/bin/python3                                                    \u001b[39;49m\r\n\u001b[K\n\u001b[38;5;17m# test.py - demonstrate an error                                                 \u001b[39;49m\r\n\n\u001b[38;5;88mprint\u001b[39;49m(\u001b[38;5;28m\"Test value: {}\"\u001b[39;49m.\u001b[38;5;60mformat\u001b[39;49m(value))"
+    ],
+    [
+      3.2e-05,
+      "\u001b[30;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.py     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (5,0)     Git-master  (Python ARev AC) []  ------\u001b[39;49m\r\nFound file ~/code/./demo/python/test.py from selection \"File \"./demo/python/test\\\r\n\u001b[6d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      6.443192,
+      "\u001b[1;31r\u001b[30;1H\u001b[1L\u001b[1;32r\u001b[32;1H\u001b[K\u001b[30d\u001b[K\u001b[6d"
+    ],
+    [
+      0.239216,
+      "\u001b[32d\u001b[?25l\u001b[38;5;20mKill buffer (default test.py): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m\u001b[32;32H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.307723,
+      "\r"
+    ],
+    [
+      0.001699,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.\u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\n\u001b[K"
+    ],
+    [
+      4.7e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------\u001b[39;49m\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.392469,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      0.000243,
+      "\r\n[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n$ "
+    ],
+    [
+      3.110417,
+      "\u001b[H\u001b[2J$ "
+    ],
+    [
+      0.32345,
+      "."
+    ],
+    [
+      0.441788,
+      "/"
+    ],
+    [
+      0.139233,
+      "d"
+    ],
+    [
+      0.148845,
+      "e"
+    ],
+    [
+      0.42904,
+      "m"
+    ],
+    [
+      0.229328,
+      "o"
+    ],
+    [
+      0.058929,
+      "/"
+    ],
+    [
+      0.318101,
+      "r"
+    ],
+    [
+      0.360011,
+      "uby/"
+    ],
+    [
+      0.499703,
+      "test.rb "
+    ],
+    [
+      0.487399,
+      "\r\n"
+    ],
+    [
+      0.035782,
+      "./demo/ruby/test.rb:5:in `<main>'"
+    ],
+    [
+      0.000825,
+      ": undefined local variable or method `value' for main:Object (NameError)\r\n"
+    ],
+    [
+      0.101208,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[2;1H\u001b[7m./demo/ruby/test.rb:5:in `<main>': undefined local variable or method `value' for\r\n main:Object (NameError)\u001b[4;3H\u001b[0m"
+      ],
+    [
+      4.017039,
+      "f"
+    ],
+    [
+      0.196936,
+      "g"
+    ],
+    [
+      0.271297,
+      "\r\nemacs -nw\t(wd: ~)\r\n"
+    ],
+    [
+      3e-05,
+      "\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.00049,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      2.1e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.002624,
+      "\u001b[32d\u001b[?25l<main>': undefined local variable or method `value' for main:Object (NameError)\"\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mRuby Help            \u001b[39;49m\r\n\u001b[38;5;17m#!/usr/bin/ruby                                                       \u001b[39;49m\r\n\u001b[K\n\u001b[38;5;17m# test.rb - test an error                                                        \u001b[39;49m\r\n\n\u001b[38;5;60mprint\u001b[39;49m \u001b[38;5;28m\"Test value: \"\u001b[39;49m + value"
+    ],
+    [
+      2.2e-05,
+      "\u001b[30;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.rb     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (5,0)     Git-master  (Ruby ARev AC) []  --------\u001b[39;49m\r\nFound file ~/code/./demo/ruby/test.rb from selection \"./demo/ruby/test.rb:5:in `\\\r\n\u001b[6d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      4.796832,
+      "\u001b[1;31r\u001b[30;1H\u001b[1L\u001b[1;32r\u001b[32;1H\u001b[K\u001b[30d\u001b[K\u001b[6d"
+    ],
+    [
+      0.230066,
+      "\u001b[32d\u001b[?25l\u001b[38;5;20mKill buffer (default test.rb): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help\u001b[39;49m\u001b[32;32H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.339849,
+      "\r"
+    ],
+    [
+      0.001994,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.\u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\n\u001b[K"
+    ],
+    [
+      0.000117,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  -------\u001b[39;49m\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.356982,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      5.6e-05,
+      "\r\n[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n"
+    ],
+    [
+      5.9e-05,
+      "$ "
+    ],
+    [
+      2.887782,
+      "\u001b[H\u001b[2J$ "
+    ],
+    [
+      0.522306,
+      "."
+    ],
+    [
+      0.362658,
+      "/"
+    ],
+    [
+      0.162513,
+      "d"
+    ],
+    [
+      0.181681,
+      "e"
+    ],
+    [
+      0.101986,
+      "m"
+    ],
+    [
+      0.269812,
+      "o"
+    ],
+    [
+      0.146711,
+      "/"
+    ],
+    [
+      0.387847,
+      "s"
+    ],
+    [
+      0.127357,
+      "h"
+    ],
+    [
+      0.139361,
+      "/"
+    ],
+    [
+      0.453128,
+      "t"
+    ],
+    [
+      0.076855,
+      "e"
+    ],
+    [
+      0.172554,
+      "s"
+    ],
+    [
+      0.07856,
+      "t"
+    ],
+    [
+      0.195642,
+      ".sh "
+    ],
+    [
+      0.727251,
+      "\r\n"
+    ],
+    [
+      0.001113,
+      "./demo/sh/test.sh: 7: ./demo/sh/test.sh: Syntax error: \"fi\" unexpected (expecting \"then\")\r\n"
+    ],
+    [
+      0.100309,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[2;1H\u001b[7m./demo/sh/test.sh: 7: ./demo/sh/test.sh: Syntax error: \"fi\" unexpected (expecting\r\n \"then\")\u001b[4;3H\u001b[0m"
+      ],
+    [
+      3.041495,
+      "f"
+    ],
+    [
+      0.188977,
+      "g"
+    ],
+    [
+      0.151783,
+      "\r\n"
+    ],
+    [
+      0.000404,
+      "emacs -nw\t(wd: ~)\r\n\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.000498,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      5e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      1.4718,
+      "\u001b[32d\u001b[?25lSetting up indent for shell type sh\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.000118,
+      "\u001b[32d\u001b[?25lIndentation variables are now local.\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      4.1e-05,
+      "\u001b[32;13H\u001b[?25lsetup for shell type sh\u001b[K\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.030071,
+      "\u001b[32d\u001b[?25l/sh/test.sh: Syntax error: \"fi\" unexpected (expecting \"then\")\"\u001b[K\u001b[H\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Sh-Script Help                            \u001b[39;49m\r\n\u001b[A"
+    ],
+    [
+      3.7e-05,
+      "\n\u001b[38;5;17m#!/bin/\u001b[39;49m\u001b[38;5;88msh\u001b[39;49m\u001b[38;5;17m                                                                        \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[38;5;17m# test.sh - test error                                                           \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[38;5;88mif\u001b[39;49m [ -f /tmp/exists ];\u001b[K\r\n   \u001b[38;5;60mecho\u001b[39;49m \u001b[38;5;28m\"Test\"\u001b[39;49m\u001b[K\r\n\u001b[38;5;88mfi\u001b[39;49m\u001b[K\r\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.sh     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (7,0)     Git-master  (Shell-script[sh] ARev AC) \u001b[39;49m\r\n\u001b[A\nFound file ~/code/./demo/sh/test.sh from selection \"./demo/sh/test.sh: 7: ./demo\\\r\n\u001b[A\u001b[8d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      4.231677,
+      "\u001b[1;31r\u001b[30;1H\u001b[1L\u001b[1;32r\u001b[32;1H\u001b[K\u001b[30d\u001b[K\u001b[8d"
+    ],
+    [
+      0.254873,
+      "\u001b[32d\u001b[?25l\u001b[38;5;20mKill buffer (default test.sh): \u001b[39;49m\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mMinibuf Help  \u001b[39;49m\u001b[32;32H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.300299,
+      "\r"
+    ],
+    [
+      0.002268,
+      "\u001b[K\u001b[1;40H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mLisp-Interaction Help\u001b[39;49m\r\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.\u001b[39;49m\r\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[K\n\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      7.4e-05,
+      "\u001b[31;4H\u001b[30m\u001b[48;5;253mU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.468235,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      2.6e-05,
+      "\r\n"
+    ],
+    [
+      1.1e-05,
+      "[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n"
+    ],
+    [
+      8.2e-05,
+      "$ "
+    ],
+    [
+      2.02802,
+      "b"
+    ],
+    [
+      0.085097,
+      "a"
+    ],
+    [
+      0.164685,
+      "s"
+    ],
+    [
+      0.062977,
+      "h"
+    ],
+    [
+      0.080502,
+      " "
+    ],
+    [
+      0.296286,
+      "d"
+    ],
+    [
+      0.173554,
+      "e"
+    ],
+    [
+      0.086157,
+      "m"
+    ],
+    [
+      0.189842,
+      "o"
+    ],
+    [
+      0.266893,
+      "/"
+    ],
+    [
+      0.472947,
+      "s"
+    ],
+    [
+      0.134837,
+      "h"
+    ],
+    [
+      0.191207,
+      "/"
+    ],
+    [
+      0.282328,
+      "t"
+    ],
+    [
+      0.093636,
+      "e"
+    ],
+    [
+      0.155828,
+      "s"
+    ],
+    [
+      0.095099,
+      "t"
+    ],
+    [
+      0.134972,
+      ".sh "
+    ],
+    [
+      0.467592,
+      "\r\n"
+    ],
+    [
+      0.001758,
+      "demo/sh/test.sh: line 7: syntax error near unexpected token `fi'\r\ndemo/sh/test.sh: line 7: `fi'\r\n"
+    ],
+    [
+      0.100147,
+      "$ "
+    ],
+      [
+          0.5,
+          "\u001b[2;1H\u001b[0m./demo/sh/test.sh: 7: ./demo/sh/test.sh: Syntax error: \"fi\" unexpected (expecting\r\n \"then\")\u001b[10;1H\u001b[7mdemo/sh/test.sh: line 7: syntax error near unexpected token `fi'\u001b[12;3H\u001b[0m"
+      ],
+    [
+      4.499139,
+      "f"
+    ],
+    [
+      0.173153,
+      "g"
+    ],
+    [
+      0.382871,
+      "\r\n"
+    ],
+    [
+      0.000795,
+      "emacs -nw\t(wd: ~)\r\n\u001b[?1049h\u001b[?12;25h\u001b[?1h\u001b=\u001b[?2004h"
+    ],
+    [
+      0.000579,
+      "\u001b[32;1H\u001b[K\u001b[H\u001b[?25l\u001b[38;5;188m\u001b[48;5;234mFile Edit Options Buffers Tools Jabber Lisp-Interaction Help                     \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; This buffer is for text that is not saved, and for Lisp evaluation.           \u001b[39;49m\r\n\u001b[A\n\u001b[38;5;17m;; To create a file, visit it with C-x C-f and enter text in its buffer.         \u001b[39;49m\r\n\u001b[A\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K"
+    ],
+    [
+      5.7e-05,
+      "\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[K\n\u001b[30m\u001b[48;5;253m-UUU:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253m*scratch*   \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (4,0)      (Lisp Interaction AC)  ---------------\u001b[39;49m\r\n\u001b[A\u001b[5d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.954978,
+      "\u001b[32d\u001b[?25lSetting up indent for shell type sh\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.000103,
+      "\u001b[32d\u001b[?25lIndentation variables are now local.\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      7.1e-05,
+      "\u001b[32;13H\u001b[?25lsetup for shell type sh\u001b[K\u001b[5;1H\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      0.015078,
+      "\u001b[32d\u001b[?25lx error near unexpected token `fi'\"\u001b[1;40H\u001b[38;5;188m\u001b[48;5;234mSh-Script Help       \u001b[39;49m\r\n\u001b[38;5;17m#!/bin/\u001b[39;49m\u001b[38;5;88msh\u001b[39;49m\u001b[38;5;17m                                                             \u001b[39;49m\r\n\u001b[K\n\u001b[38;5;17m# test.sh - test error                                                           \u001b[39;49m\r\n\n\u001b[38;5;88mif\u001b[39;49m [ -f /tmp/exists ];\u001b[7;4H\u001b[38;5;60mecho\u001b[39;49m \u001b[38;5;28m\"Test\"\u001b[39;49m\r\n\u001b[38;5;88mfi\u001b[39;49m"
+    ],
+    [
+      2.9e-05,
+      "\u001b[30;1H\u001b[30m\u001b[48;5;253m-UU-:----F1  \u001b[39;49m\u001b[1m\u001b[30m\u001b[48;5;253mtest.sh     \u001b[0m\u001b[39;49m\u001b[30m\u001b[48;5;253m   All (7,0)     Git-master  (Shell-script[sh] ARev AC) \u001b[39;49m\r\nFound file ~/code/demo/sh/test.sh from selection \"demo/sh/test.sh: line 7: synta\\\r\n\u001b[8d\u001b[?12l\u001b[?25h\u001b[?12;25h"
+    ],
+    [
+      7.404941,
+      "\u001b[32d\u001b[K\u001b[?2004l\u001b[?1l\u001b>\u001b[?12l\u001b[?25h\u001b[?1049l\u001b[39;49m\r"
+    ],
+    [
+      0.000307,
+      "\r\n[1]+  Stopped                 emacs -nw  (wd: ~)\r\n(wd now: ~/code)\r\n$ "
+    ],
+    [
+      2.609025,
+      "\u001b[H\u001b[2J$ "
+    ],
+    [
+      0.598855,
+      "#"
+    ],
+    [
+      0.16024,
+      " "
+    ],
+    [
+      0.218027,
+      "E"
+    ],
+    [
+      0.148979,
+      "n"
+    ],
+    [
+      0.218308,
+      "j"
+    ],
+    [
+      0.118706,
+      "o"
+    ],
+    [
+      0.267892,
+      "y"
+    ],
+    [
+      0.265121,
+      "!"
+    ],
+    [
+      1.609834,
+      "\r\n$ "
+    ]
+  ],
+  "height": 32,
+  "version": 1,
+  "command": null,
+  "width": 81,
+  "title": "find-file-from-selection",
+  "env": {
+    "TERM": "xterm-256color",
+    "SHELL": "/bin/bash"
+  },
+  "duration": 237.67452
+}
